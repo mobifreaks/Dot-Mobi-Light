@@ -7,7 +7,6 @@ Customized by: Mohammad Aleem
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
-@font-face {font-family: 'Museo-300';src: url('webfonts/223DDA_0_0.eot');src: url('webfonts/223DDA_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/223DDA_0_0.woff') format('woff'),url('webfonts/223DDA_0_0.ttf') format('truetype');}
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
@@ -87,7 +86,7 @@ h5, h6{
 	font-size: 16px;
 }
 h4, h5, h6{
-	margin:0 0 18px 0;	
+	margin:0 0 18px 0;
 }
 /* paragraph */
 p{
@@ -117,7 +116,7 @@ sub {
 	vertical-align: sub;
 }
 sub, sup{
-	font-size: smaller;	
+	font-size: smaller;
 }
 code, kbd, samp, pre, .pre-text {
 font-family: monospace;
@@ -155,7 +154,7 @@ ul,ol,dl{
 	margin:1em 0 1em 0;
 }
 ul, ol{
-	padding-left: 40px;	
+	padding-left: 40px;
 }
 ul{
 	list-style-type: disc;
@@ -164,7 +163,7 @@ ol{
 	list-style-type: decimal;
 }
 dt, dd{
-	display: block;	
+	display: block;
 	margin:0 0 0.5em 0;
 }
 dt{
@@ -180,11 +179,11 @@ form label{
 form input[type=text],
 form input[type=password]{
 	width:180px;
-	
+
 }
 form input[type=text],
 form input[type=password],textarea{
-	border:1px solid #ddd;	
+	border:1px solid #ddd;
 }
 form input[type=text],
 form input[type=password],textarea{
@@ -226,9 +225,9 @@ form input[type=submit]{
 	font-size:12px;
 	border:1px solid #c9dfe6;
 	margin:0;
-	cursor: pointer;	
+	cursor: pointer;
 }
-form input[type=submit]:hover{	
+form input[type=submit]:hover{
 	background: #e4f5fc;
 }
 form input[type=text],
@@ -251,22 +250,22 @@ body{
 @media all and (min-width:240px) and (max-width:300px){
 	.wrap{
 		width:200px;
-	}	
+	}
 }
 @media all and (min-width:320px) and (max-width:479px){
 	.wrap{
 		width:280px;
-	}	
+	}
 }
 @media all and (min-width:480px) and (max-width:639px){
 	.wrap{
 		width:440px;
-	}	
+	}
 }
 @media all and (min-width:640px) and (max-width:719px){
 	.wrap{
 		width:600px;
-	}	
+	}
 }
 .logo{
 	text-align:center;
@@ -308,7 +307,7 @@ body{
 	border-bottom:1px solid #ef998c;
 	margin:30px 0 20px 0;
 }
-article{	
+article{
 	position:relative;
 	border-bottom:1px solid #eee;
 }
@@ -319,7 +318,7 @@ article:active:after{
 	content:"";
 	position:absolute;
 	left:0;
-	right:0;	
+	right:0;
 	height:1px;
 	background:#c9dfe6;
 	top:-1px;
@@ -327,7 +326,7 @@ article:active:after{
 article:hover:after,
 article:active:after{
 	bottom:-1px;
-	top:inherit;	
+	top:inherit;
 }
 article:hover,
 article:active{
